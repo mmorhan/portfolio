@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+.cv-container {
+    background: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 50px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 10px;
+}
+header {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 18px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.subtitle {
+    font-size: 1.2em;
+    color: #0078d7;
+    margin: 6px 0 10px 0;
+}
+.contact-info {
+    font-size: 1em;
+    color: #555;
+}
+section {
+    margin-bottom: 32px;
+}
+section h2 {
+    color: #0078d7;
+    font-size: 1.3em;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+.job, .school {
+    margin-bottom: 18px;
+}
+.job h3, .school h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.company, .university {
+    font-weight: 600;
+    color: #444;
+}
+.date {
+    float: right;
+    color: #888;
+    font-size: 0.98em;
+}
+ul {
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skills-list li {
+    background: #eaf4fb;
+    color: #0078d7;
+    padding: 6px 14px;
+    border-radius: 16px;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+@media (max-width: 600px) {
+    .cv-container {
+        padding: 18px 8px;
+    }
+    .date {
+        float: none;
+        display: block;
+        margin-top: 2px;
+    }
+}
